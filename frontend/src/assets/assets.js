@@ -11,38 +11,10 @@ import menu_6 from './menu_6.png';
 import menu_7 from './menu_7.png';
 import menu_8 from './menu_8.png';
 
-import fuel_1 from './fuel_1.png';
-import fuel_2 from './fuel_2.png';
-import fuel_3 from './fuel_3.png';
-import fuel_4 from './fuel_4.png';
-import fuel_5 from './fuel_5.png';
-import fuel_6 from './fuel_6.png';
-import fuel_7 from './fuel_7.png';
-import fuel_8 from './fuel_8.png';
-import fuel_9 from './fuel_9.png';
-import fuel_10 from './fuel_10.png';
-import fuel_11 from './fuel_11.png';
-import fuel_12 from './fuel_12.png';
-import fuel_13 from './fuel_13.png';
-import fuel_14 from './fuel_14.png';
-import fuel_15 from './fuel_15.png';
-import fuel_16 from './fuel_16.png';
-import fuel_17 from './fuel_17.png';
-import fuel_18 from './fuel_18.png';
-import fuel_19 from './fuel_19.png';
-import fuel_20 from './fuel_20.png';
-import fuel_21 from './fuel_21.png';
-import fuel_22 from './fuel_22.png';
-import fuel_23 from './fuel_23.png';
-import fuel_24 from './fuel_24.png';
-import fuel_25 from './fuel_25.png';
-import fuel_26 from './fuel_26.png';
-import fuel_27 from './fuel_27.png';
-import fuel_28 from './fuel_28.png';
-import fuel_29 from './fuel_29.png';
-import fuel_30 from './fuel_30.png';
-import fuel_31 from './fuel_31.png';
-import fuel_32 from './fuel_32.png';
+import fuel_1 from './fuel_1.jpg';
+import fuel_2 from './fuel_2.jpg';
+import fuel_3 from './fuel_3.jpg';
+
 
 import add_icon_white from './add_icon_white.png';
 import add_icon_green from './add_icon_green.png';
@@ -62,7 +34,7 @@ import parcel_icon from './parcel_icon.png';
 import checked from './checked.png';
 import un_checked from './un_checked.png';
 
-export const assets = {
+export const asset = {
     logo,
     basket_icon,
     header_img,
@@ -128,7 +100,7 @@ export const fuel_lists = [
         image: fuel_1,
         price: 12,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Salad"
+        category: "Petrol"
     },
     {
         _id: "2",
@@ -136,7 +108,7 @@ export const fuel_lists = [
         image: fuel_2,
         price: 18,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Salad"
+        category: "CNG"
     },
     {
         _id: "3",
@@ -144,15 +116,15 @@ export const fuel_lists = [
         image: fuel_3,
         price: 16,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Salad"
-    },
+        category: "Petrol"
+    },/*
     {
         _id: "4",
         name: "Chicken Salad",
         image: fuel_4,
         price: 24,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Salad"
+        category: ""
     },
     {
         _id: "5",
@@ -365,7 +337,7 @@ export const fuel_lists = [
         price: 15,
         description: "Food provides essential nutrients for overall health and well-being",
         category: "Noodles"
-    }
+    }*/
 ]
 
 
