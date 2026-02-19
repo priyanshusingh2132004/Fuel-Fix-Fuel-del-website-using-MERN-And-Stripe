@@ -1,11 +1,4 @@
-import mongoose from "mongoose";
+import { createModel } from "../lib/Model.js";
 
-const fuelSchema = new mongoose.Schema({
-    name: { type: String, required: true },
-    email: { type: String, required: true, unique: true },
-    password: { type: String, required: true },
-    cartData:{type:Object,default:{}}
-}, { minimize: false })
-
-const fuelModel = mongoose.models.fuel || mongoose.model("fuel", fuelSchema);
-export default fuelModel;
+const userModel = createModel("users");
+export default userModel;

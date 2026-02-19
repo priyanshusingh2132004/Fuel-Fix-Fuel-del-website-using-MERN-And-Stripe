@@ -5,7 +5,7 @@ import axios from "axios";
 export const StoreContext = createContext(null);
 
 const StoreContextProvider = (props) => {
-    const url = "http://localhost:4000";
+    const url = import.meta.env.VITE_API_URL || "http://localhost:4000";
     const [fuel_list, setFuelList] = useState([]);
     const [cartItems, setCartItems] = useState({});
     const [token, setToken] = useState("");
@@ -60,7 +60,7 @@ const StoreContextProvider = (props) => {
             await fetchFuelList();
             if (localStorage.getItem("token")) {
                 setToken(localStorage.getItem("token"));
-                await loadCartData({ token: localStorage.getItem("token") });
+                await loadCartData(localStorage.getItem("token"));
             }
         }
         loadData();
