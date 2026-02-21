@@ -1,5 +1,35 @@
 {
-  "users": [],
-  "fuels": [],
+  "users": [
+    {
+      "name": "Petrol",
+      "email": "wwwwwwwwwwwww@GMAIL.COM",
+      "password": "$2b$10$wKdKgQPhPwJuXenvLcxEkeko16Va27Xy6vBxwUtrQUo32wHZRs7Om",
+      "_id": "17a5e5ea-fade-469b-a41e-92844005e1e3"
+    },
+    {
+      "name": "TestUser",
+      "email": "test@example.com",
+      "password": "$2b$10$d9EUDptkpgfzBlUc12TW6eKPnGqTzfjZiScWiZY0/8iOw2fRf6svK",
+      "_id": "8ed6e462-0d24-49a1-ac19-74e4a230bc19"
+    }
+  ],
+  "fuels": [
+    {
+      "name": "Premium Petrol",
+      "description": "High quality",
+      "price": "100",
+      "category": "Petrol",
+      "image": "1771648766184dummy.png",
+      "_id": "eaf1051a-61d6-46f2-ba81-1724859e1245"
+    },
+    {
+      "name": "Petrol",
+      "description": "aaa",
+      "price": "222",
+      "category": "Petrol",
+      "image": "1771648851098luffyHiiiii.jpg",
+      "_id": "12b5170b-1561-41ac-95bf-1294e4c0d599"
+    }
+  ],
   "orders": []
 }

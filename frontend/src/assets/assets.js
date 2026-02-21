@@ -34,7 +34,7 @@ import parcel_icon from './parcel_icon.png';
 import checked from './checked.png';
 import un_checked from './un_checked.png';
 
-export const asset = {
+export const assets = {
     logo,
     basket_icon,
     header_img,
@@ -341,4 +341,3 @@ export const fuel_lists = [
 ]
 
 
-        

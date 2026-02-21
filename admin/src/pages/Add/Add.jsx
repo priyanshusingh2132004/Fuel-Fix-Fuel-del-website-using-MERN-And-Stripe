@@ -10,7 +10,7 @@ const Add = () => {
         name: "",
         description: "",
         price: "",
-        category: "Salad"
+        category: "Petrol"
     });
 
     const onSubmitHandler = async (event) => {
@@ -103,7 +103,7 @@ const Add = () => {
                             <option value="Electic Battery">Electic Battery</option>
                             <option value="Coal">Coal</option>
                             <option value="Ethanol">Ethanol</option>
-                            <option value="Machanic">Machanic</option>
+                            <option value="Mechanic">Mechanic</option>
                             <option value="Tow Truck">Tow Truck</option>
                         </select>
                     </div>
